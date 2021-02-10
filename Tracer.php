@@ -7,10 +7,7 @@ echo "
   )(   )   / /(__)\ ( (__  )__)  )   /
  (__) (_)\_)(__)(__) \___)(____)(_)\_)\n";
 echo "\n";
-echo "author   :  HadsXdev\n";
-echo "facebook :  Hadi    \n";
-echo "instagram:  Cyber_ghost.official\n";
-echo "\n";
+echo "Author   :  Dark Skeleton Team\n";
 echo "IP Address : ";
 $ip = trim(fgets(STDIN));
 if($data['status'] == "success"){
@@ -30,6 +27,6 @@ if($data['status'] == "success"){
 	echo "location     :   ".$data['lat'].",".$data['lon']."\n";
 }
 else{
-	echo "ip wrong\n";
+	echo "Ip wrong\n";
 }
 ?>
